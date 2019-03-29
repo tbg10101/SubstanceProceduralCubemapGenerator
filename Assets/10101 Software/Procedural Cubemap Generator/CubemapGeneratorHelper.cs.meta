@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8caba2bf460f8054ab6c0be98eda8ccb
+timeCreated: 1453513207
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - cubmapGeneratorPrefab: {fileID: 11417652, guid: cec647244e5c6ba4f8d28de223911042,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

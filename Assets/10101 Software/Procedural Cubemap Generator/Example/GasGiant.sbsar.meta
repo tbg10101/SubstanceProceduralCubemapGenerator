@@ -1,0 +1,50 @@
+fileFormatVersion: 2
+guid: 029ab2cb66ff40445a2b77466c912db6
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100002: GasGiant
+    2800002: GasGiant - diffuse
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: GasGiant
+    prototypeName: GasGiant
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://GasGiant\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"1475938447\" type=\"8\" value=\"10,10\" />\n  <presetinput identifier=\"$randomseed\"
+      uid=\"9117405\" type=\"4\" value=\"8220\" />\n </sbspreset>\n"
+    shaderName: Unlit/Texture
+    outputNames: diffuse
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: source
+    textureParameters:
+    - textureName: GasGiant_diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: GasGiant - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bLockRatio: 1
+      textureWidth: 1024
+      textureHeight: 1024
+      textureFormat: 1
+      bGenerateOnLoad: 0
+    material: {fileID: 2100002, guid: 029ab2cb66ff40445a2b77466c912db6, type: 3}
+    generatedTextures: []
